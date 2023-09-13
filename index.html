@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Feliz Cumpleaños amor!</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<style type="text/css">
+		@font-face {
+      font-family: 'Inconsolata' !important;
+      src: url('Inconsolata.otf') format("truetype");
+		}
+	</style>
+	<link href="css/default.css" type="text/css" rel="stylesheet">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/garden.js"></script>
+	<script type="text/javascript" src="js/functions.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44608387-1', 'simonmysun.github.io');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body>
+<div style="position:relative">
+  <div style="position:absolute;left:0;top:0">
+  	<div id="mainDiv">
+		<div id="content">
+			<div id="code">
+<pre style='color:#55cc66'><html><body style='color:#55cc66'><pre><span style='color:#004a43; '>H</span><span style='color:#004a43; '>ola </span><span style='color:#800000; '>&lt3</span><span style='color:#40015a; '>amor mio</span><span style='color:#800000; '><3</span> 
+
+<span style='color:#778c77; '>mi vida, hay tantas cosas bonitas que quiero decirte, porque sin duda tu mereces todo lo bonito del mundo. Estuve pensando en<br>¿Qué hice para tener una persona tan linda como tú?Cada vez <br>que me llega un mensaje tuyo me pone tan pero tan feliz, aunque hayan dias que hablemos menos o dias donde hablemos todo el dia, tus mensajitos me siguen poniendo igual de feliz.<br>Tu eres lo mas precioso que me dios me pudo haber mandado,<br>y le agradezco por haberte puesto en mi vida. Sabes que me encantaria?<br>Poder estar 24/7 contigo para poder darte muchos besitos y regalonearte, pero 
+lastimosamente estamos un poquito lejos, pero quiero quesepas que <br>a pesar de la distancia, siempre estaré para tí, porque eres y serás siempre<br>mi persona favorita. Me gusta todo de ti, eres una persona maravillosa, increible, y no quiero que dejes que alguien diga lo contrario.<br>Gracias por hacerme la persona más feliz del mundo, universo y luna, no se como describir lo que siento por ti amor, un simple te amo no es suficiente, <br>en serio te agradezco todo lo que has hecho por mi amor, agradezco que estés conmigo, agradezco que siempre me saques una sonrisa, agradezco a dios y a la vida por tenerte en mi vida. <br>
+Nunca dejes de sonreirle a la vida amor, porque esa sonrisa que tienes es hermosa, preciosa y<br>perfecta, al igual que usted, la vida a su lado es perfecta, y decir perfecta es poco.<br>
+Le deseo un muy lindo dia y año amor, que esté lleno de éxitos y que siga saliendo<br>adelante como lo ha hecho hasta ahora. <br>estoy demasiado orgulloso de usted y de todo lo que va logrando dia, orgulloso de la excelente matrona que vas a ser, te ADORO, TE AMO, ERES MI TODO TABATA SEGUEL!</span>
+
+
+			</div>
+			<div id="loveHeart">
+				<canvas id="garden"></canvas>
+				<div id="words">
+					<div id="messages">
+						Mi porotito siendo hermosa desde
+						<div id="elapseClock"></div>
+					</div>
+					<div id="loveu">
+						Eres mi todo Tabata Seguel, <br />
+						Te amo de acá al infinito.<br/>
+						<span style="color:#FFFFFF">
+							<big>
+								Feliz cumpleaños!
+							</big>
+						</span>
+						<br />
+						<div class="signature">
+							- Mi rayito de sol
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="copyright">
+			Hecho con amor para mi porotito</a><br />
+		</div>
+	</div>
+</div>
+  <div style="position:absolute;left:0;top:0">
+    <canvas id="canvas">Canvas is not supported in your browser.</canvas>
+  </div>
+
+</div>
+  <script type="text/javascript">
+		var offsetX = $("#loveHeart").width() / 2;
+		var offsetY = $("#loveHeart").height() / 2 - 55;
+		var together = new Date();
+		together.setFullYear(2003, 9, 14);
+		together.setHours(10);
+		together.setMinutes(0);
+		together.setSeconds(0);
+		together.setMilliseconds(0);
+
+		if (!document.createElement('canvas').getContext) {
+			var msg = document.createElement("div");
+			msg.id = "errorMsg";
+			msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+";
+			document.body.appendChild(msg);
+			$("#code").css("display", "none")
+			$("#copyright").css("position", "absolute");
+			$("#copyright").css("bottom", "10px");
+		    document.execCommand("stop");
+		} else {
+			setTimeout(function () {
+				startHeartAnimation();
+			}, 5000);
+
+			timeElapse(together);
+			setInterval(function () {
+				timeElapse(together);
+			}, 500);
+
+			adjustCodePosition();
+			$("#code").typewriter();
+		}
+  </script>
+  <script type="text/javascript" src="js/fireworks.js"></script>
+  
+</body>
+</html>
